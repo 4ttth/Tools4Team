@@ -1,4 +1,4 @@
-<h1 align="center">🕵️‍♂️ CTF AIO Tool</h1>
+<h1 align="center">🕵️‍♂️ Tools4Team</h1>
 <p align="center">
   <b>Your all-in-one Capture The Flag toolkit for teams</b><br>
   Collaborate, track, analyze, and solve — all in one platform.
@@ -15,7 +15,7 @@
 
 ## 🚀 Overview
 
-**CTF AIO Tool** is a web-based platform designed to streamline your Capture The Flag experience.  
+**Tools4Team** is a web-based platform designed to streamline your Capture The Flag experience.  
 It brings together collaboration, tracking, and analysis tools in a single self-hosted environment, ideal for CTF teams who want efficiency and structure.
 
 ---
@@ -77,7 +77,7 @@ It brings together collaboration, tracking, and analysis tools in a single self-
 
 # 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-org>/ctf-aio-tool.git
+git clone https://github.com/4ttth/Tools4Team.git
 cd ctf-aio-tool
 ```
 
