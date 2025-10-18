@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CTF AIO Tool</title>
+  </head>
+  <body>
+    <h1>CTF AIO Tool</h1>
+    <p>Frontend static placeholder served from <code>public/</code>.</p>
+    <p>API health: <span id="health">loading…</span></p>
+
+    <script>
+      fetch('/api/health')
+        .then(r => r.json())
+        .then(j => { document.getElementById('health').textContent = j.status });
+    </script>
+  </body>
+</html>

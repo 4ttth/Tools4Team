@@ -1,0 +1,17 @@
+# Dockerfile.backend
+FROM node:18-alpine
+
+WORKDIR /app
+
+# copy package files first for faster build caching
+COPY src/package*.json ./src/
+WORKDIR /app/src
+RUN npm ci --production
+
+# copy entire repo (so src/ is available)
+WORKDIR /app
+COPY . .
+
+WORKDIR /app/src
+EXPOSE 4000
+CMD ["node", "index.js"]

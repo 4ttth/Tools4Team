@@ -63,6 +63,7 @@ It brings together collaboration, tracking, and analysis tools in a single self-
 
 ## 🧪 Planned Features (Roadmap)
 
+- [ ] Initial features.
 - [ ] Admin dashboard for user and challenge management  
 - [ ] API endpoints for CTFd integration  
 - [ ] Realtime chat + activity feed  
@@ -75,14 +76,14 @@ It brings together collaboration, tracking, and analysis tools in a single self-
 
 ## ⚙️ Getting Started
 
-# 1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/4ttth/Tools4Team.git
 cd ctf-aio-tool
 ```
 
-# 2️⃣ Launch with Docker
+### 2️⃣ Launch with Docker
 docker-compose up -d
 
-# 3️⃣ Visit the app
+### 3️⃣ Visit the app
 http://localhost:3000

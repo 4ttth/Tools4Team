@@ -1,1 +1,116 @@
+# ==========================
+# 🚫 Node.js & Backend
+# ==========================
+
+# Node dependencies
+src/node_modules/
+src/package-lock.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# Cache and temp files
+*.pid
+*.seed
+*.pid.lock
+tmp/
+temp/
+
+# PM2 or nodemon
+pids/
+pnpm-debug.log*
+.nyc_output
+coverage/
+.cache/
+
+# Compiled output
+dist/
+build/
+lib/
+bin/
+
+# ==========================
+# ⚙️ Docker
+# ==========================
+
+# Docker build artifacts
+.docker/
+docker-compose.override.yml
+docker-compose.prod.yml
+Dockerfile.*.bak
+*.tar
+
+# Local docker volumes or database
+mongo_data/
+volumes/
+data/
+db/
+
+# ==========================
+# 🖥️ Frontend (public/)
+# ==========================
+
+# If you build React or other assets later
+public/node_modules/
+public/.cache/
+public/.next/
+public/.nuxt/
+public/dist/
+public/build/
+
+# Temporary editor build outputs
+*.map
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ==========================
+# 🧪 Development / Tools
+# ==========================
+
+# VSCode / JetBrains / Editors
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python tools (if used for embedded analyzers)
+__pycache__/
+*.pyc
+*.pyo
+
+# Writeups (optional — if you store sensitive content)
+writeups/*.zip
+writeups/*.tar.gz
+writeups/*.7z
+writeups/private/
+writeups/temp/
+
+# ==========================
+# 🧰 Misc
+# ==========================
+
+# Environment / security
+*.pem
+*.key
+*.crt
+*.cert
+*.csr
+
+# Local scripts or dumps
+*.sql
+*.sqlite
+dump.rdb
